@@ -1,5 +1,3 @@
-obj
-obj/*
-qemu/mykernel.iso
-boot
-boot/*
+sysroot
+isodir
+*.iso
