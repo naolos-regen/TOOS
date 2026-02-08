@@ -27,6 +27,8 @@ kernel_main(const void *multiboot_structure, u32 _)
 	ft_printf("Hello, World! --- https://github.com/naolos-regen");
 	
 	//struct global_descriptor_table gdt = initialize_global_descriptor_table();
+	GlobalDescriptorTable gdt;
+
 
 	while (1)
 	{};
