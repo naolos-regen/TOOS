@@ -1,0 +1,32 @@
+#include "types.h"
+
+typedef void (*constructor)();
+constructor start_ctors;
+constructor end_ctors;
+void
+call_ctors()
+{
+	for (constructor * i= &start_ctors; i != &end_ctors; i++)
+	{
+		(*i)();
+	}
+}
+
+void ft_printf(i8 *str)
+{
+	static u16 *vm = (u16*) 0xb8000;
+
+	for (int i = 0; str[i] != '\0'; ++i)
+		vm[i] = (vm[i] & 0xFF00) | str[i];
+}
+
+void 
+kernel_main(const void *multiboot_structure, u32 _)
+{
+	ft_printf("Hello, World! --- https://github.com/naolos-regen");
+
+	while (1)
+	{
+	};
+};
+
