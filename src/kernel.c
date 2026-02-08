@@ -1,4 +1,5 @@
 #include "types.h"
+#include "gdt.h"
 
 typedef void (*constructor)();
 constructor start_ctors;
@@ -24,9 +25,10 @@ void
 kernel_main(const void *multiboot_structure, u32 _)
 {
 	ft_printf("Hello, World! --- https://github.com/naolos-regen");
+	
+	//struct global_descriptor_table gdt = initialize_global_descriptor_table();
 
 	while (1)
-	{
-	};
+	{};
 };
 
