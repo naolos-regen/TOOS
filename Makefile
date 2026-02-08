@@ -1,8 +1,8 @@
-GPPARAMS = -m32 -nostdlib -fno-builtin -fno-exceptions -fno-leading-underscore
+GPPARAMS = -m32 -nostdlib -fno-builtin -fno-exceptions -fno-leading-underscore -fno-stack-protector
 ASPARAMS = --32
 LDPARAMS = -melf_i386
 
-objects = obj/loader.o obj/kernel.o
+objects = obj/loader.o obj/kernel.o obj/gdt.o obj/sd.o
 
 obj/%.o: src/%.c
 	gcc $(GPPARAMS) -o $@ -c $<
