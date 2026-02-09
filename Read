@@ -1,0 +1,27 @@
+08.02.2026 - 09.02.2026
+	- https://wiki.osdev.org/Introduction		- Basic Concepts that I already understand, but it don't bleed to read
+	- https://wiki.osdev.org/Beginner_Mistakes	- This kinda bit me, I really thought it's going to be a walkthrogh :'(.
+							- My goal is to just understand wtf I'm reading and doing so that's neat.
+
+	- https://www.youtube.com/playlist?list=PLHh55M_Kq4OApWScZyPl5HhgsTJS9MZ6M 
+							- First 4 parts viewed (understood only 3 of them rly)
+
+	- https://wiki.osdev.org/Licensing		- Pretty good life advice I'm not shitting you!
+	- https://wiki.osdev.org/Bare_Bones		- Read and pretty much it.
+	
+	- Global Descriptor Table (null, code, data, usr code, usr data)
+	- https://wiki.osdev.org/Global_Descriptor_Table - Bizzare but understandable
+	- https://pdos.csail.mit.edu/6.828/2004/readings/i386/s05_01.htm
+	- https://en.wikipedia.org/wiki/Global_Descriptor_Table
+	- http://www.osdever.net/bkerndev/Docs/gdt.htm
+
+	- Interrupt Descriptor Table (256 entries)
+	- http://www.osdever.net/bkerndev/Docs/idt.htm
+	- https://en.wikipedia.org/wiki/Interrupt_descriptor_table
+	- https://wiki.osdev.org/Interrupt_Descriptor_Table
+	- https://www.scs.stanford.edu/05au-cs240c/lab/i386/s09_04.htm
+
+TO-READ:
+	- https://wiki.osdev.org/How_kernel,_compiler,_and_C_library_work_together
+	- https://wiki.osdev.org/Diskless_Booting	- ngl i read dickless_booting O.O
+		
