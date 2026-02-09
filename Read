@@ -10,16 +10,16 @@
 	- https://wiki.osdev.org/Bare_Bones		- Read and pretty much it.
 	
 	- Global Descriptor Table (null, code, data, usr code, usr data)
-	- https://wiki.osdev.org/Global_Descriptor_Table - Bizzare but understandable
-	- https://pdos.csail.mit.edu/6.828/2004/readings/i386/s05_01.htm
-	- https://en.wikipedia.org/wiki/Global_Descriptor_Table
-	- http://www.osdever.net/bkerndev/Docs/gdt.htm
+	- https://wiki.osdev.org/Global_Descriptor_Table - Bizzare but understandable	[i]
+	- https://pdos.csail.mit.edu/6.828/2004/readings/i386/s05_01.htm		[x]
+	- https://en.wikipedia.org/wiki/Global_Descriptor_Table				[x]
+	- http://www.osdever.net/bkerndev/Docs/gdt.htm					[i]
 
 	- Interrupt Descriptor Table (256 entries)
-	- http://www.osdever.net/bkerndev/Docs/idt.htm
-	- https://en.wikipedia.org/wiki/Interrupt_descriptor_table
-	- https://wiki.osdev.org/Interrupt_Descriptor_Table
-	- https://www.scs.stanford.edu/05au-cs240c/lab/i386/s09_04.htm
+	- http://www.osdever.net/bkerndev/Docs/idt.htm					[i]
+	- https://en.wikipedia.org/wiki/Interrupt_descriptor_table			[x]
+	- https://wiki.osdev.org/Interrupt_Descriptor_Table				[x]
+	- https://www.scs.stanford.edu/05au-cs240c/lab/i386/s09_04.htm			[i]
 
 TO-READ:
 	- https://wiki.osdev.org/How_kernel,_compiler,_and_C_library_work_together
