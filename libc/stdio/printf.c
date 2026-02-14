@@ -5,7 +5,7 @@
 #include <string.h>
 
 static bool 
-print(const char *data, size_t length) 
+print (const char *data, size_t length) 
 {
 	const unsigned char *bytes = (const unsigned char*) data;
 	for (size_t i = 0; i < length; i++)
@@ -15,7 +15,7 @@ print(const char *data, size_t length)
 }
 
 int 
-printf(const char *restrict format, ...) 
+printf (const char *restrict format, ...) 
 {
 	va_list parameters;
 	va_start(parameters, format);
