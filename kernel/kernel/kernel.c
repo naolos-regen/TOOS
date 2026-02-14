@@ -7,9 +7,8 @@ void kernel_main(void)
 {
 	terminal_initialize();
 	
-	printf("Hello, kernel World!\n");
-	
-	printf("Initializing descriptor table\n");
+	terminal_writestring("Hello, World!\n");
+	terminal_writestring("initializing descriptor tables\n");
 
 	descriptor_tables_init();
 }
